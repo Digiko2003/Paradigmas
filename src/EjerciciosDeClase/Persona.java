@@ -14,6 +14,10 @@ public class Persona {
         this.direccion = direccion;
     }
 
+    public void setEdad(int edad) {
+        this.edad = edad;
+    }
+
     public String getNombre() {
         return nombre;
     }
@@ -21,10 +25,10 @@ public class Persona {
         return edad;
     }
     public String getSexo() {
-        return nombre;
+        return sexo;
     }
     public String getDirecciono() {
-        return nombre;
+        return direccion;
     }
 
     public void mostrarInfo(){
