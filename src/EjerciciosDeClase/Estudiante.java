@@ -17,7 +17,7 @@ public class Estudiante extends Persona {
     }
 
     public void verCalificacion(){
-        System.out.println("La calificacion de "+getNombre()+" es"+calificacion);
+        System.out.println("La calificacion de "+getNombre()+" es: "+calificacion);
     }
     public void verCurso(){
         System.out.println("El curso es: "+curso);
@@ -29,7 +29,7 @@ public class Estudiante extends Persona {
         System.out.println("Sexo" + getSexo());
         System.out.println("Direccion" + getDirecciono());
         System.out.println("Curso" + curso);
-        System.out.println("Calificacion" + calificacion);
+        System.out.println("Calificacion" + calificacion );
     }
 
 }
