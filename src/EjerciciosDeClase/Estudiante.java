@@ -1,6 +1,9 @@
 package EjerciciosDeClase;
 
-public class Estudiante extends Persona {
+import Interfaz.IntAlumno;
+import Interfaz.IntAlumno2;
+
+public class Estudiante extends Persona implements IntAlumno,IntAlumno2 {
     String noCuenta;
     String curso;
     String calificacion;
@@ -32,4 +35,26 @@ public class Estudiante extends Persona {
         System.out.println("Calificacion" + calificacion );
     }
 
+
+    //-------------
+    @Override
+    public void mostrarCursoActual(){
+        System.out.println("Curso: ");
+        //------------
+    }
+
+    @Override
+    public void mostrarGrado() {
+
+    }
+
+    @Override
+    public int obtenerAnosdeCarrera() {
+        return 0;
+    }
+
+    @Override
+    public void entradaCurso() {
+
+    }
 }
