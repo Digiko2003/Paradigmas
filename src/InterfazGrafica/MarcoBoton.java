@@ -20,8 +20,8 @@ public class MarcoBoton extends JFrame {
         botonJButtonSimple = new JButton("Boton simple");
         add(botonJButtonSimple);
 
-        Icon insecto1 = new ImageIcon(getClass().getResource("insecto1.gif"));
-        Icon insecto2 = new ImageIcon(getClass().getResource("insecto2.gif"));
+        Icon insecto1 = new ImageIcon(getClass().getResource("MonaSimple.gif"));
+        Icon insecto2 = new ImageIcon(getClass().getResource("MonaElegante.gif"));
         botonJButtonElegante = new JButton("Boton elegante", insecto1);
 
         botonJButtonElegante.setRolloverIcon(insecto2);

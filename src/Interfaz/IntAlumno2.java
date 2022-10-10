@@ -6,10 +6,8 @@ public interface IntAlumno2 {
 
     public abstract void entradaCurso();
     default void mostrarHorario(){
-<<<<<<< HEAD
         System.out.println("horario corrido");
-=======
         //System.out.println("horario corrido");
->>>>>>> 45d8254 (05/10/2022)
+
     }
 }
