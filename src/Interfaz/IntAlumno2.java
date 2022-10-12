@@ -8,6 +8,5 @@ public interface IntAlumno2 {
     default void mostrarHorario(){
         System.out.println("horario corrido");
         //System.out.println("horario corrido");
-
     }
 }
