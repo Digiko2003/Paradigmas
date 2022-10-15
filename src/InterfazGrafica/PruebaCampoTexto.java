@@ -9,4 +9,4 @@ public class PruebaCampoTexto {
         campoTextoMarco.setSize(350, 100);
         campoTextoMarco.setVisible(true);
     }
-} // fin de la clase PruebaCampoTexto
+}
