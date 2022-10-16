@@ -19,22 +19,22 @@ public class MarcoDetallesRaton extends JFrame {
 
     // clase interna para manejar los eventos del ratón
     private class ManejadorClicRaton extends MouseAdapter {
-        // maneja evento de clic del ratón y determina cuál botón se oprimió
+
         @Override
         public void mouseClicked(MouseEvent evento) {
-            int xPos = evento.getX(); // obtiene posición x del ratón
-            int yPos = evento.getY(); // obtiene posición y del ratón
+            int xPos = evento.getX();
+            int yPos = evento.getY();
 
             detalles = String.format("Se hizo clic %d vez(veces)", evento.getClickCount());
 
-            if (evento.isMetaDown()) { // botón derecho del ratón
+            if (evento.isMetaDown()) {
                 detalles += " con el boton derecho del raton";
-            } else if (evento.isAltDown()) { // botón central del ratón
+            } else if (evento.isAltDown()) {
                 detalles += " con el boton central del raton";
-            } else { // botón izquierdo del ratón
+            } else {
                 detalles += " con el boton izquierdo del raton";
             }
-            barraEstado.setText(detalles); // muestra mensaje en barraEstado
+            barraEstado.setText(detalles);
         }
     }
 }
