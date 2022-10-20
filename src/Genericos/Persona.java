@@ -37,4 +37,8 @@ public class Persona {
         System.out.println("Sexo: "+sexo);
         System.out.println("Direccion: "+direccion);
     }
+    @Override
+    public String toString(){
+        return "Nombre: " + nombre + "\nedad: " + edad + "\nsexo" + sexo + "\ndireccion:" + direccion;
+    }
 }
