@@ -6,7 +6,8 @@ public class Main {
         System.out.println(gen1.getDato());
 
         Persona p1 =new Persona("Diego", 18, "Hombre","Jiquipilco");
-        ClaseG<Persona> gen2
+        ClaseG<Persona> gen2=new ClaseG<>(p1);
+        System.out.println(gen2.getDato());
 
     }
 }
