@@ -1,0 +1,29 @@
+body{
+	font-family: arial, helvetica;
+	background-image: url("http://localhost/CentroEscolar/1/2.jpg");
+}
+.menu{
+	list-style: none;
+	padding: 0;
+	background: #000000;
+	width: 90%;
+	max-width: 1000px;
+	margin: auto;
+}
+
+.menu li a{
+	text-decoration: none;
+	color: white;
+	padding: 20px;
+	display: block;
+}
+
+.menu li{
+	display: inline-block;
+	text-align: center;
+}
+
+.menu li a:hover{
+	background: #ef8354;
+}
+
